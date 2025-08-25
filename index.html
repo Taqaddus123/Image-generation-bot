@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gemini Image Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>✨ Gemini AI Image Generator ✨</h1>
+    <p>Describe what you want to see, then click <strong>Generate</strong>.</p>
+    <div class="input-group">
+      <input type="text" id="promptInput" placeholder="A futuristic city with flying cars..." />
+      <button id="generateBtn">Generate</button>
+    </div>
+    <div id="loader" class="hidden">
+      <div class="spinner"></div>
+      <p>Generating your image...</p>
+    </div>
+    <div id="output" class="fade-in">
+      <img id="generatedImage" src="" alt="Generated Image" />
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
